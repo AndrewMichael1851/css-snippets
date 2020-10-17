@@ -6,3 +6,9 @@ A collection of useful CSS classes I use as a part of my web development project
 * No CSS Hacks
 * Best Practices
 * Accessibility
+
+## What
+
+## Why
+
+## About Me
