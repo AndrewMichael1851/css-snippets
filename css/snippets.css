@@ -1,0 +1,50 @@
+/* Center something horizontally */
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+/* Center something vertically.
+Note that a height: value may be required. */
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide visually and from screen readers. */
+.hidden {
+  display: none !important;
+}
+
+/* Hide visually but maintain layout. */
+.invisible {
+  visibility: hidden !important;
+}
+
+/* Custom CSS to make CTA buttons bouncy. */
+.bouncy {
+  animation:bouncy 5s infinite linear;
+  position:relative;
+}
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+}
+
+/* Custom CSS to make div sections gently rise
+on hover. */
+.arise {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.arise:hover {
+  transform: translateY(-5px);
+}
